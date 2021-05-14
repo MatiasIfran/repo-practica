@@ -25,6 +25,10 @@ public class Alumno {
 		this.nombre = nombre;
 	}
 
+	
+	public List<Inscripcion> getMateriasCursadas() {
+		return materiasCursadas;
+	}
 
 	public Integer getId() {
 		return id;

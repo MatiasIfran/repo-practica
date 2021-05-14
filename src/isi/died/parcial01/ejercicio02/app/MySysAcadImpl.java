@@ -40,7 +40,7 @@ public class MySysAcadImpl implements MySysAcad {
 		a.addCursada(insc);
 		m.addInscripcion(insc);
 		// DESCOMENTAR Y gestionar excepcion
-		// DB.guardar(insc);
+		//DB.guardar(insc);
 	}
 
 	@Override
@@ -51,6 +51,16 @@ public class MySysAcadImpl implements MySysAcad {
 		m.addExamen(e);
 		// DESCOMENTAR Y gestionar excepcion
 		// DB.guardar(e);
+	}
+	
+	public void registrarNota(Examen e) {
+		if(e.getNota()>=6) {
+			for(int i=0; i<alumnos.size(); i++) {
+				if(alumnos.get(i).equals(e.getAlumno())) {
+					e.getAlumno().
+				}
+			}
+		}
 	}
 	
 
