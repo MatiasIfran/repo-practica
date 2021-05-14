@@ -71,6 +71,15 @@ public class Inscripcion {
 	public void setEstado(Estado estado) {
 		this.estado = estado;
 	}
+
+	public static Integer getID_GENERATOR() {
+		return ID_GENERATOR;
+	}
+
+	public static void setID_GENERATOR(Integer iD_GENERATOR) {
+		ID_GENERATOR = iD_GENERATOR;
+	}
+	
 	
 	
 }

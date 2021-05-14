@@ -26,6 +26,16 @@ public class Alumno {
 	}
 
 	
+	public List<Examen> getExamenes() {
+		return examenes;
+	}
+
+
+	public void setExamenes(List<Examen> examenes) {
+		this.examenes = examenes;
+	}
+
+
 	public List<Inscripcion> getMateriasCursadas() {
 		return materiasCursadas;
 	}

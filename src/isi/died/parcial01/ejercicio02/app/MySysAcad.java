@@ -1,5 +1,7 @@
 package isi.died.parcial01.ejercicio02.app;
 
+import java.util.List;
+
 import isi.died.parcial01.ejercicio02.dominio.*;
 
 
@@ -8,6 +10,7 @@ public interface MySysAcad {
 	
 	public void registrarMateria(Materia d);
 	
+	public List<Examen> topNexamenes(Alumno a, Integer n, Integer nota);
 	
 	public void registrarDocente(Docente d) ;
 	
